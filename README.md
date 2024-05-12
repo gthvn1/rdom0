@@ -3,7 +3,8 @@
 Work is in progress...
 
 - Currently we are trying to build freestanding rust binary:
-    - build: `cargo rustc -- -C link-arg=-nostartfiles`
+    - it seems that nightly is needed to rebuild `core`
+    - build: `cargo build``
 
 ## Links
 
